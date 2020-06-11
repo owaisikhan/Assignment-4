@@ -1,8 +1,20 @@
 .App{
   background-color: #00001f;
   color: #ffffff;
+  width: 500px;
+  height: 200px;
 }
 .Morning{
-  background-color: yellow;
   color: #ff0000;
+  background-image: url('https://i.pinimg.com/originals/69/83/f5/6983f5ef3d65f55d6bfbfa9248fe0e71.jpg');
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-attachment: fixed;
+}
+.Night{
+  color: #ffffff;
+  background-image: url('https://littlenivi.com/wp-content/uploads/2019/08/30-Amazing-Good-Night-Quotes-and-Wishes-with-Beautiful-Images-4.jpg');
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-attachment: fixed;
 }

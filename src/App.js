@@ -5,8 +5,7 @@ function App() {
   let [count,setCount] = useState(0);
   let [isMorning,setMorning] = useState(true);
   return(
-    <div className={`App ${isMorning ? "Morning":""}`}>
-    <h1>Good {isMorning ? "Morning" : "Night"}</h1>
+    <div className={`App ${isMorning ? "Morning":"Night"}`}>
     <Message counter={count}/>
     <button onClick={()=>{
       setCount(++count);
